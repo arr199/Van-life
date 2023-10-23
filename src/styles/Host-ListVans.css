@@ -1,0 +1,85 @@
+.list-vans-container{
+    margin-top: 2em;
+    display: grid;
+    place-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.list-vans-form {
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2em .8em;
+    border-radius: 15px;
+    background-color: #fae9c4;
+    border: 8px  solid white;
+    box-shadow: 0 0 5px gray;
+    height: max-content;
+    width: 100%;
+    max-width: 550px;
+    min-width: 420px;
+    z-index: 10;
+    min-height: 400px;
+    gap:  1em ;
+  
+
+
+}
+.file-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.file-container div  {
+   
+   display: flex;
+   align-items: center;
+   gap: 1em;
+
+}
+
+.file-container div  select {
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+
+}
+.file-container div label {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+
+.list-vans-form input {
+    display: block;
+    padding: .8em;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 5px 5px  0px 0px;
+    font-weight: bold;
+    background: #fdf6f2;
+    font-size: 1rem;
+
+}
+
+
+.list-vans-form button{
+    font-size: 1rem;
+    margin-top: 2em;
+    padding: 1.2em;
+    border-radius: 5px;
+    border: unset;
+    font-weight: bold;
+    background-color: #FF8C38;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.list-vans-form button:hover{
+    background: #313131;
+  }

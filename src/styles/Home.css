@@ -1,0 +1,192 @@
+.home-container {
+    color: white;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    z-index: 5;
+    height: 100vh;
+
+  }
+
+  .home-container .home-hero .background-h1{
+    font-size: 200px;
+    margin: 0;
+    color: gray;
+    opacity: .3;
+    margin-top: auto;
+
+  }
+
+   .home-hero{
+    color: black;
+    padding: 3em 1.3em;
+    height: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: justify;
+   
+ 
+  
+  }
+
+  .image-container{
+        background: red;
+   
+  }
+
+ .img{
+    opacity: 0;
+    border: 5px solid black;
+  }
+
+
+  .home-bg-image1{
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    top: 35vh;
+    left: 3vw;
+    bottom: 0;
+    z-index: 10;
+  
+
+  }
+  
+  .home-bg-image2{
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    top:10vh;
+    left: 10vw;
+    z-index: 10;
+ 
+
+  }
+  .home-bg-image3{
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    top: 35vh;
+    left: 20vw;
+    z-index: 10;
+ 
+
+  }
+
+  .home-bg-image4{
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    top:60vh;
+    left: 10vw;
+    z-index: 10;
+   
+  }
+  
+  
+
+  
+  .home-hero h1 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 42px;
+   
+  }
+  
+  .home-hero p{
+    font-size: 1.2rem;
+  }
+  .home-hero > div {
+    width: 100%;
+    display: flex;
+  }
+
+  .home-hero  a {
+ 
+    text-align: center;
+    text-decoration: none;
+    background-color: #FF8C38;
+    border: none;
+    width: 100%;
+    align-self: flex-end;
+    padding: 1em 2em;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .1s ease-in-out;
+    align-self: flex-end;
+    text-decoration: none;
+    margin: 0;
+  
+  }
+  
+  .home-hero a:hover {
+    transform: translate(1px, 1px);
+  }
+
+  @media (width < 1400px) {
+ 
+   .home-container{
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   
+   .home-hero{
+
+    margin-bottom: auto;
+    margin-left: auto;
+  
+   }
+   
+    .home-container .home-hero .background-h1{
+      font-size: 15vw;
+    }
+
+  }
+
+  @media (width < 1000px) {
+    .home-container .home-hero .background-h1{
+      display: none;
+    }
+
+    .home-container{
+      flex-direction: column;
+      background: url('../assets/images/daniele-colucci-0Mpp7iB1eyg-unsplash.jpg');
+      background-position: bottom;
+      background-size: cover;
+      min-width: 500px;
+
+  
+     }
+
+     .home-hero{
+      align-self:center;
+      min-width: 500px;
+      margin-left: 0;
+  
+      
+     }
+     .home-container h1 {
+      margin: 0;
+     }
+
+     
+     .home-hero a {
+      font-size: 20px;
+      margin-top: 280px;
+      color: black;
+     
+     }
+
+     .img{
+      display: none;
+      
+    }
+
+  }
+

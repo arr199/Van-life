@@ -1,0 +1,53 @@
+.host-vans-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: flex-start;
+    padding: 1em 0 2em 1em ;
+    text-decoration: none;
+    color:  black;
+    justify-content: start;
+    
+ 
+
+}
+
+.host-vans-section > a{
+    margin: 0;
+}
+.host-vans-section > h1 {
+    align-self: flex-start;
+    font-size: 36px;
+    margin-left: .5em;
+}
+
+.host-vans-section-container {
+    width: 90% ; 
+    background: white ; 
+    display: flex ; 
+    gap: 10px;
+    text-decoration: none;
+    color:  black;
+ 
+  
+}
+
+.host-vans-section-container  .host-vans-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 3px;
+    display: block;
+    padding:1em;
+}
+
+
+.host-vans-section-container > div{
+
+    display: grid ;
+    place-content: center;
+}
+
+.host-vans-section-container > div > h3 {
+    margin: 0 0 .3em 0;
+    display: block;
+}

@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+.header-section {
+    padding: 0 1.5em;
+}
+
+.title{
+    font-size: 2rem;
+}
+.vans-header{
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: start;
+}
+.filter-options{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    
+}
+
+.simple,.luxury,.rugged,.clear-filters {
+    border-radius: 5px;
+    background: #FFEAD0;
+    padding: .6em 1.2em;
+    cursor: pointer;
+    border: 1px solid orange;
+    text-align: center;
+    text-decoration: none;
+   transition: .3s;
+    font-weight: bold;
+
+}
+
+.simple-selected {
+    background: #E17654;
+    color: white;
+    border: 0;
+}
+
+.luxury-selected {
+    background: #161616;
+    color: white;
+    border: 0;
+}
+
+.rugged-selected {
+    background: #115E59;
+    color: white;
+    border: 0;
+}
+
+
+
+ .simple:hover,.simple:focus{
+    background: #E17654;
+    color: white;
+    border: 0;
+
+}
+.luxury:hover, .luxury:focus{
+    background: #161616;
+    color: white;
+    border: 0;
+    }
+.rugged:hover , .rugged:focus{
+    background: #115E59;
+    color: white;
+    border: 0;
+}
+
+
+
+.clear-filters{
+    margin-left: auto;
+    margin-right: 1.3em;
+    text-align: start;
+    background: #FFEAD0;
+    border:  1px solid #E17654;
+    border-radius: 5px;
+    padding: .4em;
+    text-decoration: none;
+   
+}
+
+.clear-filters:hover{
+    background-color: rgb(247, 195, 137);
+    color: rgb(41, 40, 40);
+   
+}
+
+.vans-section {
+    padding: 3em 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 2em;
+}
+
+
+.vans-link {
+    text-decoration: none;
+    color: black;
+}
+
+.van-image{
+
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid orange;
+   
+}
+
+.vans-info { 
+    display: flex;
+    justify-content: space-between;
+
+}
+.vans-price{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.day{
+    font-weight: lighter;
+    font-size: .8rem;
+    
+}
+
+.buy-button {
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+    &:hover{
+       scale : 1.05;
+       transition: scale .2s;
+      
+    }
+
+}
+
+@media (width < 600px) { 
+    
+    .van-image{
+        width: 100%;
+        height: 400px;
+        border-radius: 5px;
+        
+    }
+    .vans-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+       
+    }
+   
+    .filter-options {
+       display: flex;
+       justify-content: space-around;
+       gap: 10px;
+
+       
+    }
+    .filter-options > span{
+        width: 80px;
+        font-size: 10px;
+      
+    }
+    
+}

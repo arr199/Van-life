@@ -1,0 +1,116 @@
+/* ////////// LOGIN FORM   ////////////*/
+.sign-up-container{
+ 
+    height: 100%;
+    display: grid;
+    place-items: center;
+  
+  }
+  
+  .sign-up-login-form{
+      font-family: inter;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 .8em;
+      border-radius: 15px;
+      background-color: #fae9c4;
+      border: 8px  solid white;
+      box-shadow: 0 0 5px gray;
+      height: max-content;
+      min-height: 350px;
+      width: 100%;
+      max-width: 550px;
+      min-width: 420px;
+      z-index: 10;
+     
+    
+    }
+    .sign-up-login-form > h1 {
+      font-size: 1.8em;
+
+
+    }
+    .sign-up-login-form >h4{
+      font-size: 15px;
+      color: red;
+    }
+
+    .sign-up-email {
+      display: block;
+      padding: .8em;
+      border: 1px solid rgb(206, 204, 204);
+      border-radius: 5px 5px  0px 0px;
+      font-weight: bold;
+      background: #fdf6f2;
+      font-size: 1rem;
+    
+    
+    }
+    .sign-up-password {
+      display: block;
+      padding: .8em;
+      border: 1px solid rgb(206, 205, 204);
+      border-radius: 0px 0px 5px 5px;
+      font-weight: bold;
+      background: #fdf6f2;
+      font-size: 1rem;
+    
+    }
+    
+    
+    .sign-up-login-form button {
+      margin-top: 2em;
+      padding: 1.2em;
+      border-radius: 5px;
+      border: unset;
+      font-weight: bold;
+      background-color: #FF8C38;
+      cursor: pointer;
+      color: rgb(255, 255, 255);
+      font-size: 1rem;
+    
+    }
+  
+    .sign-up-login-form button:hover{
+      background: #313131;
+    }
+    
+    .sign-up-login-form p {
+      padding:  2em 0;
+      font-weight: bold;
+      color: #242424;
+      
+    }
+    
+    .sign-up-login-form a{
+      color: #FF8C38;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+
+    .sign-up-login-form .sign-up-goback-btn{
+      font-size: 15px;
+      color: #242424;
+      margin: 0;
+      align-self: flex-start;
+      font-size: bold;
+      padding: 1em 0 ;
+    }
+
+    .sign-up-goback-btn:hover{
+      text-decoration: underline 2px;
+    }
+
+    
+    @media  (width < 400px) {
+      .sign-up-container{
+        height: 100vh;
+      }
+      .sign-up-login-form{
+        margin-bottom: 150px;
+       }
+      
+      
+    }

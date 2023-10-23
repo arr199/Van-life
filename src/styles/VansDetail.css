@@ -1,0 +1,56 @@
+
+.vans-detail-section{
+    padding: 1em;
+    min-width: 400px;
+  
+    
+   
+}
+.vans-detail-image {
+    width: 100%;
+    max-height: 600px;
+    margin-top: 2em;
+    border-radius: 5px;
+    align-self: center;
+  
+
+}
+
+.vans-detail-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+}
+
+
+.vans-detail-button{
+    margin-top: 1em;
+}
+
+.rent-van-btn{
+    font-size: 18px;
+    align-self: stretch;
+    padding: 1em ;
+    background-color: #FF8C38;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  
+    &:hover{
+        
+        background-color: #1334ec;
+      
+    }&:active{
+        scale: .98;
+    }
+}   
+
+.vans-detail-section-loading{
+    cursor: progress;
+    min-height: 100vh;
+    padding-left: 1em;
+   
+}
+

@@ -1,0 +1,104 @@
+/* ////////// LOGIN FORM   ////////////*/
+.container{
+ 
+  display: grid;
+  place-items: center;
+  height: 100%;
+  position: relative;
+
+}
+
+.login-first-message{
+    position: absolute;
+    top: -10px;
+}
+
+.login-form{
+    font-family: inter;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 .8em;
+    border-radius: 15px;
+    background-color: #fae9c4;
+    border: 8px  solid white;
+    box-shadow: 0 0 5px gray;
+    height: max-content;
+    width: 100%;
+    max-width: 550px;
+    min-width: 420px;
+    z-index: 10;
+    
+  }
+   
+
+  .login-form  > h1 {
+    font-size: 1.6em;
+    margin-top: 1em;
+  
+  }
+  .email {
+    display: block;
+    padding: .8em;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 5px 5px  0px 0px;
+    font-weight: bold;
+    background: #fdf6f2;
+    font-size: 1rem;
+  
+  
+  }
+  .password {
+    display: block;
+    padding: .8em;
+    border: 1px solid rgb(206, 205, 204);
+    border-radius: 0px 0px 5px 5px;
+    font-weight: bold;
+    background: #fdf6f2;
+    font-size: 1rem;
+  
+  }
+  
+  
+  .login-form button {
+    
+    font-size: 1rem;
+    
+    margin-top: 2em;
+    padding: 1.2em;
+    border-radius: 5px;
+    border: unset;
+    font-weight: bold;
+    background-color: #FF8C38;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  
+  }
+
+  .login-form button:hover{
+    background: #313131;
+  }
+  
+  .login-form p {
+    padding:  2em 0;
+    font-weight: bold;
+    color: #242424;
+    
+  }
+  
+  .login-form a{
+    color: #FF8C38;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+
+  @media  (width < 400px) {
+    .container{
+      height: 100vh;
+     }
+     .login-form{
+      margin-bottom: 150px;
+     }
+    
+  }

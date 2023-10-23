@@ -1,0 +1,10 @@
+/* eslint-disable react/react-in-jsx-scope */
+import ReactDOM from 'react-dom/client'
+import './styles/index.css'
+import { App } from './App'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+
+    <App />
+
+)

@@ -1,0 +1,40 @@
+.host-section{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.host-navbar{
+    display: flex;
+    justify-content: start;
+    gap: 1.4em;
+    padding: 1.2em;
+    
+}
+.host-navbar a {
+    margin: 0;
+  
+}
+
+
+.host-navlinks {
+    
+    text-decoration: none;
+    color: black; 
+    &:hover{
+        font-weight: 500;
+        text-decoration: underline;
+    }
+}
+
+.current-host-link{
+ font-weight: bold;
+ text-decoration: underline 3px;
+ color: black;
+
+}
+
+
+
+
+
