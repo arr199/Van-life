@@ -156,11 +156,10 @@
 
     .home-container{
       flex-direction: column;
-      background: url('../assets/images/daniele-colucci-0Mpp7iB1eyg-unsplash.jpg');
+      background: url('../assets/images/daniele-colucci-0Mpp7iB1eyg-unsplash.webp');
       background-position: bottom;
       background-size: cover;
       min-width: 500px;
-
   
      }
 

@@ -1,5 +1,5 @@
 /* eslint-disable react/react-in-jsx-scope */
-import bgImg from '../../assets/images/about-hero.png'
+import bgImg from '../../assets/images/about-hero.webp'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { slideAnimation } from '../../assets/motion/motions'
