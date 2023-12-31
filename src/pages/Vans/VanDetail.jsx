@@ -28,19 +28,22 @@ export const VansDetail = () => {
               e.id === id &&
               <div className='vans-detail-container' key={e.id}>
                 <img className='vans-detail-image' src={e.imageUrl} alt="" />
-                <button style={{
-                  alignSelf: 'start',
-                  background: e.type === 'luxury'
-                    ? '#161616'
-                    : e.type === 'rugged'
-                      ? '#115E59'
-                      : e.type === 'simple' ? '#E17654' : ''
-                }}
-                  className='buy-button vans-detail-button'>{e.type}</button>
-                <h1>{e.name}</h1>
-                <p style={{ fontSize: '16px' }}><strong>${e.price}</strong><small>/day</small></p>
-                <p>{e.description}</p>
-                <button className='rent-van-btn'>Rent this van</button>
+                <div className='van-description-container'>
+                  <button style={{
+                    alignSelf: 'start',
+                    background: e.type === 'luxury'
+                      ? '#161616'
+                      : e.type === 'rugged'
+                        ? '#115E59'
+                        : e.type === 'simple' ? '#E17654' : ''
+                  }}
+                    className='buy-button vans-detail-button'>{e.type}</button>
+                  <h1>{e.name}</h1>
+                  <p style={{ fontSize: '16px' }}><strong>${e.price}</strong><small>/day</small></p>
+                  <p className='description'>{e.description}</p>
+                  <button className='rent-van-btn'>Rent this van</button>
+                </div>
+
               </div>
             )
           })

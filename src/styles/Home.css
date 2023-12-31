@@ -107,13 +107,11 @@
 
   }
   .home-container{
-
     background: rgb(221, 221, 221);
     position: fixed;
     padding: 1em ;
     height: 70%;
     overflow-y: scroll;
-
 
   }
 
