@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+ body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -37,10 +37,8 @@ scrollbar-width: none;
 
 .main-content{
   width: 100%;
-  max-width: 1100px;
+  max-width: 1300px;
   margin: 0 auto;
-
- 
 
 }
 

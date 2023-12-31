@@ -15,7 +15,6 @@ export const Layout = () => {
            <div className='pages'>
               <main className='main-content'>
                 <Header></Header>
-
                 <Outlet></Outlet>
               </main>
               <Footer></Footer>

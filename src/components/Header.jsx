@@ -12,7 +12,6 @@ export const Header = () => {
   }
 
   return (
-
         <header className='main-header'>
             <NavLink className="site-logo" to="/"> #VanLife </NavLink>
             <nav className='main-navbar'>
@@ -30,7 +29,6 @@ export const Header = () => {
                   <AccountIcon/>
                 </NavLink>
                  : <NavLink to='/login' onClick={handleLogout}>Log out</NavLink>}
-
             </nav>
         </header>
 
